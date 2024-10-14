@@ -13,17 +13,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andomiele/kvestiks.git"
+    "url": "git+https://github.com/andomiele"
   },
   "author": "Andomiele",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/andomiele"
   },
+  "homepage": "https://github.com",
+  "main": "src/index.js",
   "dependencies": {
     "bootstrap": "^5.3.3"
   },
   "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4",
