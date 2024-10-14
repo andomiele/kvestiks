@@ -5,7 +5,7 @@ install:
 	npm ci
 
 build:
-	sudo npm run build
+	npm run build
 
 test:
 	npm test
